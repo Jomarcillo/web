@@ -3,50 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>Mi Página de Fútbol</title>
     
 </head>
 <body>
+    <div>
+        <h1 class="title" id="uno">  Fútbol una pasion</h1>
+    </div>
 
-    <header>
-        <h1>mi pagina web</h1>
-        
-            <ul>
-                <li><a href="#Inicio">Inicio</a></li>
-                <li><a href="#Acerca de">Acerca de</a></li>
-                <li><a href="#Contacto">Contacto</a></li>
-            </ul>
-        <img src="desarrollo.jpg" alt="">
-    </header>
-    <main>
-        <section id="#Inicio">
-            <h2>CREACION DE PAGINAS Web</h2>
-            <p>Bienvenido a mi página web. Esta es la sección de creacion de paginaa web</p>
-        </section>
-    
-        <section id="acerca">
-            <h2>Acerca de Mí</h2>
-            <p>¡Hola! Soy Jesus .</p>
-        </section>
-    
-        <section id="contacto">
-            <h2>Contacto</h2>
-            <p>Puedes contactarme a través de mi correo electrónico: <a href="jomarcillo">jomarcillo@example.com</a></p>
-        </section>  
-    </main>
+    <nav>
+        <a href="#inicio">Inicio</a> |
+        <a href="#equipos">Equipos</a> |
+        <a href="#jugadores">Jugadores</a> |
+        <a href="#partidos">Partidos</a>
+    </nav>
 
-      
+    <div id="inicio">
+        <h2 class="title">Bienvenido a Mi Página de Fútbol</h2>
+        <p>Disfruta de la información más reciente sobre equipos, jugadores y partidos de fútbol.</p>
+    </div>
+<article>
+    <div id="card-container">    
+    <div id="equipos"class="card">
+    <h2>Equipos</h2>
+    <img src="./equipos.jpg " class="logo">
+    <p>Aquí encontrarás información sobre los equipos de fútbol.</p>
+
+</div>
+
+<div id="jugadores"class="card">
+    <h2>Jugadores</h2>
+    <img src="./jugadores.jpeg"  class="logo">
+    <p>Descubre más sobre tus jugadores favoritos.</p>
+</div>
+
+<div id="partidos"class="card">
+    <h2>Partidos</h2>
+    <img src="./estadio.jpg"  class="logo">
+    <p>Consulta los resultados y detalles de los partidos más recientes.</p>
+</div>
+</div>
+
+
+</article>
     <footer>
-        <p>este el footer de mi pagina </p>
-        <div>
-            <ul><a href="redes">instagram </a></ul> 
-        </div>
-        <div>
-            <ul><a href="redes">facebook</a></ul>
-        </div>
-         
-        
+        <p>&copy; 2024 Mi Página de Fútbol. Todos los derechos reservados.</p>
     </footer>
-
 </body>
 </html>
+
