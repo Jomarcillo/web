@@ -1,0 +1,35 @@
+/* reset.css */
+
+/* Box sizing border-box para todos los elementos */
+* {
+    box-sizing: border-box;
+}
+
+/* Establece márgenes y rellenos a 0 para todos los elementos */
+body, h1, h2, h3, p, figure, div {
+    margin: 0;
+    padding: 0;
+}
+
+/* Normaliza la configuración de la lista */
+ul, ol {
+    list-style: none;
+}
+
+/* Asegura que las imágenes sean respetadas como bloques en línea */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Establece un conjunto básico de estilos para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Asegura que los elementos dentro de la caja flexible no tengan márgenes predeterminados */
+.flex-container, .flex-item {
+    margin: 0;
+}
